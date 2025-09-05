@@ -381,7 +381,7 @@ nav[aria-label="breadcrumb"] {
   background: var(--custom-btn-bg-color);
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
-  color: #202197;
+ color: var(--white-color);
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-normal);
   line-height: normal;
@@ -694,6 +694,7 @@ nav[aria-label="breadcrumb"] {
 }
 
 .badge {
+  text-transform: uppercase;
   background: var(--section-bg-color);
   border: 1px solid var(--white-color);
   border-radius: var(--border-radius-medium);
@@ -1407,7 +1408,7 @@ nav[aria-label="breadcrumb"] {
   }
 
   h4 {
-    font-size: 28px;
+    font-size: 33px;
   }
 
   h5 {
